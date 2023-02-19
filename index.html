@@ -35,32 +35,8 @@
   <div class="col">
   	<div class="mb-3">
   <label for="input" class="form-label">HTML</label>
-  <textarea class="form-control" id="input" rows="10"></textarea><h1>Demo</h1>
+  <textarea class="form-control" id="input" rows="10"></textarea>
 </div>
-
-<p>HTML to Markdown converter in JavaScript.</p>
-
-<h2>Usage</h2>
-
-<pre><code class="language-js">var turndownService = new TurndownService()
-console.log(
-  turndownService.turndown('&amp;lt;h1&amp;gt;Hello world&amp;lt;/h1&amp;gt;')
-)</code></pre>
-
-<hr />
- compliant, and includes options to style the output. These options include:</p>
-
-<ul>
-  <li>headingStyle (setext or atx)</li>
-  <li>horizontalRule (*, -, or _)</li>
-  <li>bullet (*, -, or +)</li>
-  <li>codeBlockStyle (indented or fenced)</li>
-  <li>fence (` or ~)</li>
-  <li>emDelimiter (_ or *)</li>
-  <li>strongDelimiter (** or __)</li>
-  <li>linkStyle (inlined or referenced)</li>
-  <li>linkReferenceStyle (full, collapsed, or shortcut)</li>
-</ul></textarea>
   </div>
   <div class="col">
   	<div class="mb-3">
@@ -148,7 +124,25 @@ console.log(
     </div>
   </form>
 </div>
- </div>
+<div class="card text-bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">HTML to Markdown converter</div>
+  <div class="card-body">
+    <p>compliant, and includes options to style the output. These options include:</p>
+
+<ul>
+  <li>headingStyle (setext or atx)</li>
+  <li>horizontalRule (*, -, or _)</li>
+  <li>bullet (*, -, or +)</li>
+  <li>codeBlockStyle (indented or fenced)</li>
+  <li>fence (` or ~)</li>
+  <li>emDelimiter (_ or *)</li>
+  <li>strongDelimiter (** or __)</li>
+  <li>linkStyle (inlined or referenced)</li>
+  <li>linkReferenceStyle (full, collapsed, or shortcut)</li>
+</ul>
+  </div>
+</div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/turndown/dist/turndown.js"></script>
     <script>
